@@ -6,3 +6,4 @@ javascript:function advance(e,s){p.pauseVideo(),p.seekBy(e/s)}function setfps(e)
 
 Press `.` to go forward by one frame and `,` to go backward by one frame.
 Hold `shift` to advance by 5 frames, `ctrl` for 10, or `alt` for 20.
+Press P to toggle between 30 and 60 FPS modes.
