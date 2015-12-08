@@ -7,14 +7,14 @@ function advance(frames) {
 
 document.addEventListener("keydown", function(e) {
     frames = 1;
-    if (e.ctrlKey) {
+    if (e.shiftKey) {
         frames = 5;
     }
-    if (e.shiftKey) {
+    if (e.ctrlKey) {
         frames = 10;
     }
     if (e.altKey) {
-        frames = 10;
+        frames = 20;
     }
     if (e.which == 190) {
         advance(frames);
