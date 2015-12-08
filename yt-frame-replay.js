@@ -14,7 +14,6 @@ fps = setfps(30);
 
 document.addEventListener("keydown", function(e) {
     frames = 1;
-    console.log(e);
     if (e.which == 80) {
         switch(fps) {
             case 30:
